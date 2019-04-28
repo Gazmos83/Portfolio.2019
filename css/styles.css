@@ -1,0 +1,313 @@
+* { box-sizing: border-box; }
+.container-fluid {
+  padding: 0%;
+}
+.short-text {display: none;}
+
+body {padding: 0;}
+body {background-color: #F7FAD8;}
+.bgimg-2 {
+  background-image: url("../img/Sunset.jpg");
+  height: 100%;
+  position: static;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+img {
+  border-style: ridge;
+  border-radius: 10%;
+  border-color: #F3F3BE;
+  padding: 5px;
+}
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font size: 2.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #F3F3BE;
+ }
+h4 {
+  color: #6BC9E6;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+p, li {
+  font-family: sans-serif, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 1em;
+  color: white;
+  font-size: 1em;
+}
+
+.row-fluid {display: flex;}
+.navbar .left a  {float: left;}
+.navbar .right a {float: right;}
+.navbar {
+  box-shadow: 0 6px 14px 6px rgba(0,0,0,0.35);
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #FC4C7D;  /* fallback for old browsers */
+  background: linear-gradient(to right, #7fbd98, #229d53);
+  width: 100% !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  z-index: 1;
+}
+.navbar .logo {
+  padding: 0 !important;
+  border: 10 !important;
+}
+.navbar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: white;
+}
+.navbar a:hover {
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+  color: #F3F3BE;
+  text-decoration: none;
+}
+.navbar .nav-pills .active {
+  background-color: #B8EDDB;
+  color: #F3F3BE;
+}
+
+.carousel { padding-top: 40px;}
+.carousel img {
+  border: none;
+  border-radius: 0%;
+}
+.carousel h5 {
+  font-size: 2.5em;
+  padding-bottom: 10%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#work-section h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+#work {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#work h1 {text-align: center;}
+#work .row {padding: 1px;}
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 500px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative;
+  padding: 2%; /* is needed for .info position: absolute to work */
+}
+
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 15%; /* position the text 15% away from the top */
+  left: 22%;
+  color: #fff;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  display: none;
+}
+
+.proj-title { font-weight:100;}
+
+
+#about {padding-top: 20px;}
+#about .row h2 {text-align: center;}
+#about .header h1 {
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+#about .main-text {
+  padding-top: 30px;
+  font-family: 'Dosis',sans-serif;
+  clear: both;
+  font-weight:200;
+  font-size: 1.2em;
+  color: black;
+}
+#about .learn {
+  margin-top: 15px;
+  float: center;}
+
+.github {
+  margin-top: 25px;
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+#modal-resume {
+  height: 900px;
+  width: 100%;
+}
+#resume {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#faq {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+#faq .header {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#faq .card-header {
+  background: #F3F3BE;
+  font-family: 'Poppins', sans-serif;
+  color: #29603B;
+  font-size: 1.8em;
+}
+#faq p {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-shadow: none;
+  color: #29603B;
+}
+#faq .card-header button {
+  font-family: 'Poppins', sans-serif;
+  color: #29603B;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: auto;
+}
+#accordion { padding-bottom: 80px;}
+
+#contact {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+#contact .contactimage {
+  background-image: url("../img/Zonza2.jpg");
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+#contact .contactimage .row {text-align: center;}
+#contact h1 {
+  text-align: center;
+  padding-top: 90px;
+}
+#contact p {
+  font-size: .7em;
+  font-weight: 900;
+  word-wrap: break-word;
+  color: #F3F3BE;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#contact .row {
+  display: flex;
+  align-items: center;
+}
+#map1 {
+  height: 300px;
+  width: 100%;
+  border: 10px;
+}
+
+.form-group { width: 100%;}
+.form-control { width: 1o0%;}
+
+/*Footer Section*/
+
+.footer-section{
+  padding: 10px;
+  height: 160px;
+  background-color: #159411;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 100% !important;
+}
+.footer-title {
+  font-size: 1.5rem;
+  margin: 5 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.footer-list {
+  display: inline-block;
+  text-align: center;
+}
+.footer-list li {
+  list-style: none;
+  padding: 0 60px;
+  display: inline-block;
+  font-size: 1em;
+}
+.footer-list li a {
+  color: #F3F3BE;
+  font-size: 1.8rem;
+  transition: 600ms ease;
+  text-decoration: none;
+}
+.footer-list li a:hover {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  #work .container .img-fluid {
+    margin: 0; }
+  .Aboutphoto {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  #contact h1 { padding-top: 15px;}
+  .map1 { height: 300px; }
+  .footer-section .container {height: 100px;}
+  .footer-list li{
+    margin: none;
+    padding: 0 2px;
+    font-size: 0.5em;
+  }
+  .footer-list .copywrite {
+    float: right;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .full-text { display: none; }
+  .container {padding: 3%;}
+  .short-text {
+    display: inline-block;
+    position: fixed;
+    padding-left: 55px;
+    font-size: 1.2em;
+      }
+
+  .navbar .center { text-align: center;}
+  #work-section { padding-top: 10px;}
+  #work-section h1 { padding-bottom: 10px;}
+
+  #about h1 { padding-top: -140px;}
+  #resume {display: inline-block;}
+  .mb-0 { font-size: .5em;}
+  #contact h1 {padding-top: 15px;}
+  .footer-section .container {height: 100px;}
+  .footer-list li {
+   margin: none;
+   padding: 0 2px;
+   font-size: 0.5em;
+  }
+  .footer-list .copywrite {
+   float: right;
+   padding-top: 20px;
+  }
+}
